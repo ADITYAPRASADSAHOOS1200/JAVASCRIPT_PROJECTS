@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMI CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+        <div class="loan-box">
+          <div class="loan1">
+         <label for="Loan-amount" id="loan-head">Loan-amount</label>
+         <input type="text" name="amount" id="Loan-amount" placeholder="Loan-amount" >
+        </div>
+        <div class="loan2">
+         <label for="Loan-tenure" id="loan-head">Loan-Tenure-month</label>
+         <input type="text" name="amount" id="Loan-tenure" placeholder="Loan-Tenure" >
+        </div>
+        </div>
+         <div class="loan-box2">
+         <label for="interest-rate" id="loan-head">interest-rate</label>
+          <br>
+          <input type="text" name="amount" id="interest-rate" placeholder="interest-rate" >
+          <button class="btn-1">Calculate-Loan</button>
+         </div>
+   
+         <div class="canva">
+          <!-- <canvas id="LoanChart"></canvas> -->
+         </div>
+         
+
+         <div class="payment-area">
+          
+  
+             <div class="monthly">MONTHLY EMI:<span id="Month"></span></div>
+             <div class="principleAMount">principleAMount:<span id="principle"></span></div>
+             <div class="interest">loan on interest:<span id="interest"></span></div>
+             <div class="total-amount">total-amount:<span id="total"></span></div>
+         </div>
+  </div>
+    
+  <script src="app.js"></script>
+</body>
+</html>

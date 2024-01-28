@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height:100vh;
+    width:100vw;
+    background: linear-gradient(125deg,rgb(146, 146, 231),#9ee7d7);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.container{
+    background-color:#ffff;
+    min-height: 50vh;
+    width:70vh;
+    padding:20px;
+    position: relative;
+}
+ .loan1,.loan2{
+    display: flex;
+    flex-direction: column;
+    
+} 
+.loan-box{
+    display: flex;
+    gap:5px;
+}
+
+.loan-box2{
+   margin-top:10px;
+   
+}
+.btn-1{
+    padding:2px 25px;
+   background-color:#4face1;
+   border: none;
+   outline:none;
+   color:#ffff;
+   border-radius: 5px;
+}
+
+.payment-area{
+  /* position: absolute; */
+  bottom: 12px;
+  background-color:#d6d6ff ;
+  width:95%;
+  padding: 10px;
+  margin-top:20px
+}
+
+
+#Month{
+    color:#09552c;
+    font-weight: 700;
+}
+#principle{
+    color:#99690f;
+    font-weight: 700;
+}
+#interest{
+    color:#0e6f72;
+    font-weight: 700;
+}
+#total{
+    color: rgb(126, 126, 6);
+    font-weight: 700;
+}

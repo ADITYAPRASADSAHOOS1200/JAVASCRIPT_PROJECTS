@@ -13,18 +13,21 @@
 body{
     min-height:100vh;
     width:100vw;
-    background: url(./pexels-photo-2049422.jpeg);
+    background: url(./pexels-photo-1624496.jpeg);
     background-position: center;
     object-fit: cover;
     background-repeat: no-repeat;
     font-family: "poppins";
     display: flex;
-  
+    background-color: #414141;
     align-items: center;
     /* justify-content: center;     */
     flex-direction: column;
 }
 
+h1{
+    color:#f6e3e3;
+}
 .countdown-cont{
 
      display: flex;
@@ -34,7 +37,7 @@ body{
      gap:4rem;
      font-size: 30px;
      font-weight: 700;
-     color: #000000;
+     color: #f6e3e3;
 }
 
 
