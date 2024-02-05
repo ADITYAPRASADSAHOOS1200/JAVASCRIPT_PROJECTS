@@ -38,7 +38,7 @@ listContainer.addEventListener('click',function(e){
         alwaysSave()
      }
     else if(e.target.tagName === "I"){
-         e.target.parentElement.parentElement.remove(); 
+         e.target.parentNode.parentNode.remove(); 
     }
 })
 
