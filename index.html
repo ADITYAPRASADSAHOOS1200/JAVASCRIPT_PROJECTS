@@ -3,49 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My projects</title>
-</head>
-<style>
+    <title>Praticed Projects</title>
+    <style>
+
+   h1{
+     text-align: center;
+     color:#fff;
+
+   }
+
+            
     body{
-        height: 100vh;
-        background: linear-gradient(125deg,rgb(201, 201, 242),rgb(103, 101, 101));
-        
-    }
-    h1{
-        text-align: center  ;
-    }
-   .list{
-     border:2px solid black;
-     width: 50%;
+            height:100vh;
+            display: flex;
+            justify-content: center;
+         
+            margin:40px;
+            background-image:url(./pexels-pixabay-235985.jpg);
+            overflow-y: auto;
+            font-family:sans-serif ;
+        }
+
+    body::-webkit-scrollbar {
+    width: 0 !important;
+  }
+  li{
+    background-color: rgb(86, 75, 62);
+    margin:10px;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 8px;
+  }
+  ol{
+    font-size: 20px;
+    color: aliceblue;
+  }
+
+
+   a{
+       text-decoration: none;
+       color:white
    }
 
 
-   li,a{
-       color:red;
-       font-size: 28px;
-       list-style: none;
-       text-decoration:none;
-       text-align: center;
-       margin: 10px;
-       background-color: white;
-       width: 50%;
-   }
- 
-</style>
+    </style>
+</head>
 <body>
-    <div class="project">
+        
+    
+      <ol type="1">
+        <h1>Pratice_Projects</h1>
+        <Li><a href="./Age_Calculator/index.html">Age_Calculator</a></Li>
+        <Li><a href="./backgroundChanger/index.html">backgroundChanger</a></Li>
+        <Li><a href="./Box_shadow generator/index.html">Box_shadow generator</a></Li>
+        <Li><a href="./countDown_timer/index.html">countDown_timer</a></Li>
+        <Li><a href="./COunter_app/index.html">COunter_app</a></Li>
+        <Li><a href="./DiceGame/index.html">DiceGame</a></Li>
+        <Li><a href="./Emi_Calculator/index.html">Emi_Calculator</a></Li>
+        <Li><a href="./Drum Kit/index.html">Drum Kit</a></Li>
+        <Li><a href="./flip coin/index.html">flip coin</a></Li>
+        <Li><a href="./PassWordCheck strength/">PassWordCheck strength</a></Li>
+         <li><a href="./Qrcode_GENERATOR/">Qrcode_GENERATOR</a></li>
+         <li><a href="./TODOLIST/index.html">TODOLIST</a></li>
+         <li><a href="./quote_generator/">quote_generator</a></li>
+      </0l>
 
-        <h1>My projects</h1>
-         <div class="list">
-            <ul>
-                <li><a href="./backgroundChanger/index.html">BackgroundChanger</a></li>
-                <li><a href="./countDown_timer/index.html">Count-down</a></li>
-                <li><a href="./COunter_app/index.html">COunter_app</a></li>
-                <li><a href="./Emi_Calculator/index.html">Emi-claculator</a></li>
-                <li><a href="./flip coin/index.html"></a>flipCOIN</li>
-                <li><a href="./TODOLIST/index.html"></a>TODO-LIST</li>
-            </ul>
-         </div>
-    </div>
 </body>
 </html>

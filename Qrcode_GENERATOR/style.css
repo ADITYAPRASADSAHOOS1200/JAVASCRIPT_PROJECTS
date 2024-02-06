@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(99, 91, 93);
+}
+
+.container{
+    min-height:100px;
+    width: 300px;
+    border: 3px solid black;
+    background: transparent;
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px black ; 
+}
+
+.part2{
+    margin-top:10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#input{
+  padding: 6px;
+  border: 0;
+  outline: 0;
+  background-color: rgb(205, 201, 201);
+  border-radius:5px ;
+}
+#input::placeholder{
+    font-size: 17px;
+    color:black;
+    text-align: start;
+    padding: 2px;
+}
+
+#qr-button{
+    padding:8px;
+    color: white;
+   background-color:rgb(101, 249, 101);
+   border:0;
+   outline:0;
+   border-radius: 8px;
+}
+
+.msg{
+ font-size: 22px;
+ text-align: center;
+ margin-top: 10px;
+ color: white;
+
+}
+
